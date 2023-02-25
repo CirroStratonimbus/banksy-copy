@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <NavigationBar/>
       <Routes>
-        <Route exact path='/' element={<Outside/>}/>
+        <Route exact path='banksy-copy/' element={<Outside/>}/>
         <Route path='/outside' element={<Outside/>}/>
         <Route path='/inside' element={<Inside/>}/>
         <Route path='/q+a' element={<QA props={QAimg}/>}/>
