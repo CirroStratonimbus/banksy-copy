@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import NavigationBar from './components/NavigationBar';
+import {Routes, Route} from "react-router-dom"
+import Outside from './components/Outside'
+import Inside from './components/Inside';
+import QA from './components/QA'
+import Licensing from './components/Licensing';
+import Shows from './components/Shows';
+import QAimg from './components/images/Q+Aimg.jpg'
 
+// app component
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavigationBar/>
+      <Routes>
+        <Route exact path='/' element={<Outside/>}/>
+        <Route path='/outside' element={<Outside/>}/>
+        <Route path='/inside' element={<Inside/>}/>
+        <Route path='/q+a' element={<QA props={QAimg}/>}/>
+        <Route path='/licensing' element={<Licensing/>}/>
+        <Route path='/shows' element={<Shows/>}/>
+      </Routes>
     </div>
   );
 }
