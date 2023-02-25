@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/banksy-copy/static/css/main.5bb0a5fe.css",
-    "main.js": "/banksy-copy/static/js/main.9d363c4f.js",
-    "static/js/787.24d198b4.chunk.js": "/banksy-copy/static/js/787.24d198b4.chunk.js",
+    "main.js": "/banksy-copy/static/js/main.1fac65d6.js",
+    "static/js/787.eb645561.chunk.js": "/banksy-copy/static/js/787.eb645561.chunk.js",
     "static/media/outside2.jpg": "/banksy-copy/static/media/outside2.f62cf78c05dc4a890301.jpg",
     "static/media/outside3.jpg": "/banksy-copy/static/media/outside3.c4cd362fd53de38ca25b.jpg",
     "static/media/outside1.jpg": "/banksy-copy/static/media/outside1.18b339c8fe02057c88ac.jpg",
@@ -13,11 +13,11 @@
     "static/media/fake-licensing.jpg": "/banksy-copy/static/media/fake-licensing.f140b05ce7f61fda3e7b.jpg",
     "index.html": "/banksy-copy/index.html",
     "main.5bb0a5fe.css.map": "/banksy-copy/static/css/main.5bb0a5fe.css.map",
-    "main.9d363c4f.js.map": "/banksy-copy/static/js/main.9d363c4f.js.map",
-    "787.24d198b4.chunk.js.map": "/banksy-copy/static/js/787.24d198b4.chunk.js.map"
+    "main.1fac65d6.js.map": "/banksy-copy/static/js/main.1fac65d6.js.map",
+    "787.eb645561.chunk.js.map": "/banksy-copy/static/js/787.eb645561.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5bb0a5fe.css",
-    "static/js/main.9d363c4f.js"
+    "static/js/main.1fac65d6.js"
   ]
 }
